@@ -1,0 +1,35 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": ["wuw.sh"],
+    "url": "https://github.com/wuw-sh",
+    "license": "MIT"
+  },
+  "header": {
+    "name": "Painter (Bp)",
+    "description": "@wuw.sh",
+    "min_engine_version": [1, 20, 60],
+    "uuid": "396652ef-fc8b-424d-8a09-137d6dfd2221",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "description": "@minecraft/server | @minecraft/server-ui",
+      "language": "javascript",
+      "uuid": "9ad1c4ea-f7d9-4365-95d9-dbf06ce5c332",
+      "entry": "scripts/server/index.js",
+      "version": [1, 9, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.9.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.2.0-beta"
+    }
+  ]
+}
